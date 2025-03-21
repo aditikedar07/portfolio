@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Kedar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #ffe6f2;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #ff99cc;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ff66a3;
+        }
+        .hero {
+            padding: 120px 20px;
+            background: #ffccdd;
+            color: #660033;
+            margin-top: 100px;
+        }
+        .hero h1 {
+            font-size: 40px;
+        }
+        .hero span {
+            color: #ff0066;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #ff66a3;
+            color: white;
+            text-decoration: none;
+            margin-top: 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff3385;
+        }
+        .projects {
+            padding: 50px 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 280px;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .contact {
+            background: #ff99cc;
+            color: white;
+            padding: 50px;
+        }
+        footer {
+            padding: 15px;
+            background: #660033;
+            color: white;
+        }
+        .resume-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #ff66a3;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+        .resume-btn:hover {
+            background: #ff3385;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aditi Kedar</h1>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section class="hero">
+        <h1>Hello, I'm <span>Aditi Kedar</span></h1>
+        <p>Web Developer | Java Expert | Creative Designer</p>
+        <a href="#projects" class="btn">View My Work</a>
+        <br>
+        <a href="Aditi_Kedar_Resume.pdf" download class="resume-btn">Download Resume</a>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>B.C.S. Graduate | Passionate about web development, Java, and software testing.</p>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Online Car Rental System</h3>
+            <p>Browse, book, and manage car rentals seamlessly.</p>
+        </div>
+        <div class="project-card">
+            <h3>Divine Collection E-Commerce</h3>
+            <p>Beautiful boutique shopping experience with a responsive design.</p>
+        </div>
+        <div class="project-card">
+            <h3>Online Book Store System</h3>
+            <p>Book browsing and purchasing with user-friendly features.</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: kedar.aditi07@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aditi-kedar" target="_blank">Aditi Kedar</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Aditi Kedar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
